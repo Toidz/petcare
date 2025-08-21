@@ -1,13 +1,14 @@
-import {HomePage} from "./components/home/home"
+
 import type { Metadata } from "next";
+import { DashBoardPage } from "./dashboard";
 export const metadata: Metadata = {
-  title: "Trang chủ",
-  description: "Web mua sắm thú cưng Online!",
+  title: "Trang chủ tổng quan",
+  description: "",
 };
 export default function Home() {
   return (
     <>
-      <HomePage />
+      <DashBoardPage />
     </>
   );
 }

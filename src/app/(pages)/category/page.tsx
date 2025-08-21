@@ -1,13 +1,13 @@
-import {HomePage} from "./components/home/home"
+import {CategoryPage} from "../category/category"
 import type { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Trang chủ",
+  title: "Chó canh",
   description: "Web mua sắm thú cưng Online!",
 };
-export default function Home() {
+export default function Category() {
   return (
     <>
-      <HomePage />
+      <CategoryPage />
     </>
   );
 }
