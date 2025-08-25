@@ -12,7 +12,7 @@ export default function RootLayout({
   const isAdminPage = pathname.startsWith('/admin');
   return (
     <html lang="en">
-      <body>
+      <body className="bg-[#F5F6FA]">
         {!isAdminPage && <Header />}
 
         {children}

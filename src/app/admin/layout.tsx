@@ -11,7 +11,7 @@ export default function AdminLayout({
   const pathName = usePathname();
   const isAdminAccount = pathName.startsWith("/admin/account")
   return (
-    <div className="bg-[#f8f8f8]">
+    <div className="relative container mx-auto">
       {isAdminAccount ? <></> : <Header />}
       {isAdminAccount ? <></> : <Sidebar />}
       {children}

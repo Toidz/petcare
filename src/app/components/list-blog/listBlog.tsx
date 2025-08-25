@@ -81,8 +81,8 @@ export const ListBlog = ({title}:any) =>{
                   modules={[Pagination, Navigation]}
                   className="mySwiper"
                 >
-                    {array.map(item=>(
-                        <SwiperSlide>
+                    {array.map((item, index) => (
+                        <SwiperSlide key={index}> 
                             <a href="/" className="flex flex-col shadow-lg shadow-gray-200 rounded-[10px] overflow-hidden">
                                 <div className="overflow-hidden">
                                     <img src="/client/images/demo-blog.jpg" className="h-[240px] w-[500px] transition-transform duration-1100 ease-in-out hover:scale-125" alt="demo-dog"></img>

@@ -84,7 +84,7 @@ ul {
   height: 200px;
   width: full;
   border-radius:20px;
-  margin-bottom:30px;
+  margin-bottom:20px;
 }
 @media (min-width: 640px) {
   .mySwiper2 {
@@ -94,15 +94,15 @@ ul {
 
 
 .mySwiper {
-  height: 50px;
+  height: 70px;
   border-radius:10px;
 }
 
-.mySwiper .swiper-slide {
+/* .mySwiper .swiper-slide {
   width: 15px;
   height: 100%;
   opacity: 0.4;
-}
+} */
 .mySwiper .swiper-slide-thumb-active {
   opacity: 1;
 }
