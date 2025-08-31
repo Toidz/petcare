@@ -2,7 +2,7 @@ export const DashBoardPage = ()=>{
     return(
         <> 
             <div className="xl:w-[calc(100%-240px)] lg:w-[calc(100%-220px)] w-full absolute top-[100px] xl:left-[240px] lg:left-[220px] left-0  flex justify-center flex-col">
-                <div className="w-full grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-y-[20px] xl:gap-x-[40px] gap-x-[20px] px-[30px]">
+                <div className="w-full grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-y-[20px] xl:gap-x-[40px] gap-x-[20px] md:px-[30px] px-[16px]">
                     <div className="bg-[white] flex items-center gap-[20px] justify-center py-[20px] rounded-[20px]">
                         <img src="/admin/images/user.png" className="w-[70px] " />
                         <div className="flex flex-col">
@@ -25,16 +25,16 @@ export const DashBoardPage = ()=>{
                         </div>
                     </div>
                 </div>
-                <div className="px-[30px] mt-[20px] py-[20px]">
+                <div className="md:px-[30px] px-[16px] mt-[20px] py-[20px]">
                     <div className="flex flex-col px-[30px] bg-[white] py-[30px] rounded-[20px]" >
                         <div className="mb-[20px] text-[23px] font-[700]">Đơn hàng mới</div>
                         <div className="overflow-x-auto">
-                            <table>
+                            <table className="">
                                 <thead className="bg-[#e5e1e1] ">
                                     <tr className=" ">
                                         <td className="p-[15px] text-[14px] font-[600] rounded-l-[10px] ">Mã</td>
                                         <td className="p-[15px] text-[14px] font-[600] py-[10px]">Thông tin khách</td>
-                                        <td className="p-[15px] text-[14px] font-[600] py-[10px]">Danh sách sản phẩm</td>
+                                        <td className="p-[15px] text-[14px] font-[600] py-[10px] w-[400px]">Danh sách sản phẩm</td>
                                         <td className="p-[15px] text-[14px] font-[600] py-[10px] ">Thanh toán</td>
                                         <td className="p-[15px] text-[14px] font-[600] py-[10px]">Trạng thái</td>
                                         <td className="p-[15px] text-[14px] font-[600] rounded-r-[10px] py-[10px]">Ngày đặt</td>
@@ -86,7 +86,7 @@ export const DashBoardPage = ()=>{
                                             <div>SĐT: 0914913491</div>
                                             <div className="">Địa chỉ: 320 - Khương Đình - Hà Nội</div>
                                         </td>
-                                        <td className="p-[15px] flex flex-col gap-y-[10px] w-[300px]">
+                                        <td className="p-[15px] flex flex-col gap-y-[10px]">
                                             <div className="flex items-center gap-[10px]">
                                                 <img className="rounded-[10px] w-[120px]" src="/client/images/demoDog.jpg"></img>
                                                 <div className="flex flex-col">

@@ -34,3 +34,8 @@ body{
   background: var(--pri);
   margin-left: 20px; 
 }
+input[type="date"]::-webkit-calendar-picker-indicator {
+  margin-left:-20px;        
+  font-size:14px;
+  margin-top:3px
+}

@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import { DashBoardPage } from "./dashboard";
 export const metadata: Metadata = {
-  title: "Trang chủ tổng quan",
+  title: "Trang tổng quan",
   description: "",
 };
 export default function Home() {

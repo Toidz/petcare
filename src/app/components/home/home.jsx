@@ -16,6 +16,9 @@ import '../../../app/swiper/swiper-comment.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+
+import React from 'react';
+
 export const HomePage = ()=> {;
 
   useEffect(() => {
