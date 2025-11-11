@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@theme {
+  --pri: #003459;
+  --second:#F7DBA7;
+  --third:#FCEED5;
+  --txt:#333333;
+  --b:#00BFFF;
+
+}
+:root {
+  --pri: #003459;
+  --second: #F7DBA7;
+  --third: #FCEED5;
+  --txt: #333333;
+  --b: #00BFFF;
+}
+*{
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+body{
+    overflow-x: hidden;
+    position:relative
+}
+.active{
+
+    background-color:var(--pri);
+    color:white
+}
+.custom-scroll::-webkit-scrollbar {
+  width: 3px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background: var(--pri);
+  margin-left: 20px; 
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  margin-left:-20px;        
+  font-size:14px;
+  margin-top:3px
+}
+.just-validate-error-label {
+  font-size: 12px;  
+  color: #ef4444;    
+  margin-top: 4px;
+  font-weight: 400; 
+}
+
