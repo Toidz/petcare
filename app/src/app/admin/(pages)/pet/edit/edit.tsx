@@ -61,24 +61,12 @@ export const PetEditPage = ()=>{
                                 plugins: [
                                 'anchor', 'autolink', 'charmap', 'codesample', 'emoticons',
                                 'link', 'lists', 'media', 'searchreplace', 'table',
-                                'visualblocks', 'wordcount', 'checklist', 'mediaembed',
-                                'casechange', 'formatpainter', 'pageembed',
-                                'permanentpen', 'advtable', 'advcode', 'advtemplate',
-                                'mentions', 'tinycomments', 'tableofcontents',
-                                'footnotes', 'mergetags', 'autocorrect',
-                                'typography', 'inlinecss', 'markdown'
+                                'visualblocks', 'wordcount'
                                 ],
                                 toolbar:
                                 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | ' +
-                                'link media table mergetags | addcomment showcomments | ' +
-                                'align lineheight | checklist numlist bullist indent outdent | ' +
+                                'link media table | align lineheight | numlist bullist indent outdent | ' +
                                 'emoticons charmap | removeformat',
-                                tinycomments_mode: 'embedded',
-                                tinycomments_author: 'Author name',
-                                mergetags_list: [
-                                { value: 'First.Name', title: 'First Name' },
-                                { value: 'Email', title: 'Email' }
-                                ]
                             }}
                             initialValue=""
                         />

@@ -3,6 +3,7 @@ slug = require('mongoose-slug-updater')
 mongoose.plugin(slug)
 const schema = new mongoose.Schema(
     {   
+        petCode:String,
         name: String,
         category: String,
         date:Date,
